@@ -1,4 +1,4 @@
-# Plant Diseases Prediction
+# Plant Diseases Detection
 I have been taking a couple of deep learning classes at https://course.fast.ai and got inspired by some of the projects done by other students undertaking the same class. So, I decided to try out something cool but meaningful using what I had learned in the first couple lessons. 
 
 So, Kudos to `fast.ai` team for making deep learning fun and easy! 
