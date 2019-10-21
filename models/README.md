@@ -4,7 +4,7 @@ I have been taking a couple of deep learning classes at https://course.fast.ai a
 So, Kudos to `fast.ai` team for making deep learning fun and easy! 
 
 ## Goal of Project 
-The main idea is still very fuzzy, but I hope to built a tool that helps farmers in Kenya identify crop diseases by simply taking a photo of a diseased part of the plant. 
+The main idea is still very fuzzy, but I hope to build a tool that helps farmers in Kenya identify crop diseases by simply taking a photo of a diseased part of the plant. 
 Hopefully, this can help farmers increase yield, reduce losses, detect diseases earlier, and seek help before it is too late. Maybe in future, this Project can evolve to recommend best treatment for specific diseases and so on. 
 
 ## Getting Started
@@ -64,9 +64,12 @@ I wouldn't recommend you run this model.. But, hell, who am I to stop you from d
 
     You will need to adjust your GPU Quotas
     Go to Google [Cloud Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
+
     If you signed up with a free tier account, you first need to upgrade to a paid account; do so by clicking the “Upgrade account” button at the top right of the page. This won’t affect your $300 credit.
+
     In filter type, select metric to be GPUs (all regions) and Location as Global.
     Click edit quotas and select the quota to edit (GPUs All Regions). Set the new quota limit to 1 or more. Your request may require confirmation, which Google claims typically takes two business days to get.
+    
     You will have to wait a little bit until you see the text informing you the instance has been created. You can see the instance online [here](https://console.cloud.google.com) in your list of instances (note that this will be the page you have to go to later to stop your instance).
 
     Access your Instance on Terminal by typing: 
