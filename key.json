@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plant-diseases-zd",
+  "private_key_id": "86e670a58d981fc61e0ebae3f6fd1589b1f227ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCg+0/iKcRKEsUj\nN7MFTU5Hv/nks5oQJn0KEIdn801nyAAbg4D9qHLWik+BkgIhpuGkudCmpWTrMY+f\nIqt9xoyxR05TmnAmNvKeSu/ljyyVllhJdF6of5hFE4gjnxR960ekQgDAFxWq+LQY\nFQZcRYxaM6lgRIs1NW7tFJpWGkHPbY+RaockR73Y4p6NH30AsUReoYtbsMVwz6dS\n0xnvSSzXUUhDG0mmCpvtt23Lfcl3NRlUf2g9Zrve1JabM+fKasXUXziCTWZp4rwc\nFPKenQqe9PLMZGXv6zeE/INwoq0j8JsGE3v3SjUJ3XeDutDgZKZO8DSTLDp67Bm9\nc/zL478BAgMBAAECggEAC3kVvqXg5DGVxLaHxvk1OsZbGjpVoNCJaVH3wIgVzG9z\n2IIlC475jkJBu9eK2NiirMGEdhgECwIXfQ00wSxJIypUkf9H/mU8odzv34G2ePvD\n04pcY7BiSwwDEBzakkXWL4X3tTj/9ZUviqbW8vUO9W/IosCH1lU2UGW/QSMybQTC\nJbhGSYj5/Qr6CGRH3etHx1cSkbcvEed1AiPNUWRJvuzZV8TGx9wmcxCl5qY8dcsb\nlMdcR8ZyvjzALL3paQqYi/dGnbzxNuyZ0YCv33DpvUVxi/z6jqhPLwG22r/vaM85\n17qC9lU19R5qNlsELGisdEEb49vXIoUxdFVRNRtDpQKBgQDcXo9ajr1zkkYAhiHD\nooKpFToJE5bbDzRk4gOvRXihPqNDZZW4NObxXHlq3EMjOIad/T1KUx8YqvUJcR8z\nXGDVtkDgLVeHvEOQqWU5M9gAkLC5pwSmsnDhx0iI3RAehO/3FlnVu6n1W9Cs7TRP\nVs1kNP18RRXF9OTEzGh9hR+2/QKBgQC7ApnXWkNoKNMs+hR/MNHDP+41G7Sj0sWz\nSZdH2VCO7ZZzN5gXR0vaEzsGtrabqkEr+DxtWoe8YJWM1f+0XShBnZLE2nHrWLD7\nrRXXMudI/nUthDhLrmRg/KuyUAEZOFnnCgAfncse+1oDV377Wt/Yxpf2Mzf1J5aQ\nM9sqvMkBVQKBgQCaTlRO8thRzsDZqRKHbInVX5mttVvStEjZwzEVT63yKmwjy0QV\nImX75+bVHrqcNP5+Lk72dlG18i92lxFj43Gi8+VllBpQX1FoQFUywsyjSK2Wsg6d\nsyE711FBFJou5KMq/ymUcb3Goq3yCH6yd3OGkVxV4gInBR4Td5ZLHiZg+QKBgDYY\nxIPlWoZw+NWT6gX5C1Td03yNbS3OtN3uNdLU7FbMJ69gr6BcQXbuBS8l/6D8GSos\n/t3rSESX8+rvpK56HEEO4fwL7NRVrazAHwdHdFxLL35hNx+9bNAZh1lnh0nSYT9S\nR0LeFHn738gDsXnoicRdfmv72P4T25wPRCESx1qZAoGAW6/A+E7RELd3OD9errWP\niGt7C/g1p2OshbnSX0ZbXvJ1s+Ly2c8YA27SZRxbPgvaqZCx98sHPVDNOoV79SQ5\ncZmQQU9ZXpzBlz5yR1O9SQxAG29iCy1KFgB7UHpRlbsXFNvGSlOvkg3KISn1sFWP\nHZb4Vrwedikex5fUzLeInG8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-881u6@plant-diseases-zd.iam.gserviceaccount.com",
+  "client_id": "106311956931271191788",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-881u6%40plant-diseases-zd.iam.gserviceaccount.com"
+}

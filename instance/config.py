@@ -7,6 +7,7 @@ class Config:
 class DevelopmentConfig(Config):
     """Configurations for Development."""
     DEBUG = True
+    SECRET_KEY= os.getenv('SECRET_KEY')
 
 class ProductionConfig(Config):
     """Configurations for Production."""

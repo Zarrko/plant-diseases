@@ -3,3 +3,4 @@
 .vscode/
 venv/
 switcher_backup.env
+.DS_Store
