@@ -10,9 +10,9 @@ from flask import jsonify, request
 from marshmallow.exceptions import ValidationError
 from fastai.vision import *
 
-
 image_schema = PlantImagesSchema()
 model_path = 'app/api/images/model'
+
 
 @logger.catch
 @images.route("", methods=["POST"])
@@ -40,7 +40,7 @@ def plant_disease_images():
             predictions = learner.predict(data)
             return jsonify(dict(
                 success=True,
-                predictions = predictions
+                predictions=predictions
             )), 200
 
         except Exception as e:
@@ -52,11 +52,3 @@ def plant_disease_images():
     except ValidationError as v:
         logger.error(f"Failed to load schema with error {v}")
         return jsonify(dict(errors=[v.messages])), 422
-
-
-
-
-
-
-
-
