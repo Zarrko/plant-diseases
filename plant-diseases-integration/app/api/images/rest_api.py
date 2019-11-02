@@ -2,20 +2,19 @@
 Images Module
 Contains REST API functions Image Requests from App/Website
 """
-from app import logger
-from app.api import images
-from app.api.images import webapp
+from app.api.images import webapp, logger
 from app.api.images.schemas import PlantImagesSchema
 from app.validators import validate_json
 from flask import jsonify, request
 from marshmallow.exceptions import ValidationError
 from fastai.vision import *
+import logging
+import os
 
 image_schema = PlantImagesSchema()
-model_path = 'app/api/images/model'
+model_path = os.getcwd() + '/api/images/model'
 
 
-# @logger.catch
 @webapp.route("/")
 @webapp.route("/images", methods=["POST"])
 @validate_json
@@ -34,23 +33,21 @@ def plant_disease_images():
     try:
         # Validate Request Body
         data = image_schema.load(payload)
-
-        logger.info(f"Pushing Image to Model for Prediction: {data}")
+        logging.info(f"Pushing Image to Model for Prediction: {data}")
 
         try:
+            img = open_image(data.path)
             learner = load_learner(model_path)
-            predictions = learner.predict(data)
+            predictions = learner.predict(img)
             return jsonify(dict(
                 success=True,
-                predictions=predictions
+                predictions=str(predictions)
             )), 200
 
         except Exception as e:
-            logger.error(f"Failed to Predict Image with error {e}")
             return jsonify(dict(
-                message="Failed to predict image"
+                message=e
             )), 500
 
     except ValidationError as v:
-        logger.error(f"Failed to load schema with error {v}")
         return jsonify(dict(errors=[v.messages])), 422

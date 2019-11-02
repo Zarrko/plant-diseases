@@ -23,14 +23,33 @@ Any editor of your choice can be used for this application.
     
     The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories.
     
-       
+### Running The Application
+I am no Flask Guru, but this is how I run the application locally. (Any Suggestions to improve this are highly recommended).
+
+1. Create Env for this Project. See `venv` above. This is a one time thing. Then `source venv/bin/activate`. Install all Dependencies
+
+2. Run `/app/__init__.py`
+
+3. Create an `.env` file on Project Root and add `FLASK_ENV=development`
+
+4. Test as follows on Insomnia. 
+    
+    ```
+   Example Payload
+       {
+            "path": "/Downloads/maize_rust.png"
+       }
+   
+   URL (POST)
+   http://127.0.0.1:5000/images
+   ```   
 
 ### Pending Items
 This Project is still in its early stages and may significantly change with time
 
-1. Testing
+1. Model Improvements
     
-    Test that the Fast AI Learner returns a Prediction and a Score when given a path to an image. 
+    Based on insights from testing results, adjust model
 
 2. Database Integration
     
