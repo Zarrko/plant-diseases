@@ -4,6 +4,7 @@ Contains REST API functions Image Requests from App/Website
 """
 from app import logger
 from app.api import images
+from app.api.images import webapp
 from app.api.images.schemas import PlantImagesSchema
 from app.validators import validate_json
 from flask import jsonify, request
@@ -14,8 +15,9 @@ image_schema = PlantImagesSchema()
 model_path = 'app/api/images/model'
 
 
-@logger.catch
-@images.route("", methods=["POST"])
+# @logger.catch
+@webapp.route("/")
+@webapp.route("/images", methods=["POST"])
 @validate_json
 def plant_disease_images():
     """Endpoint to handle Images as received from client
