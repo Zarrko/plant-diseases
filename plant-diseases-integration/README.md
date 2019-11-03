@@ -32,7 +32,9 @@ I am no Flask Guru, but this is how I run the application locally. (Any Suggesti
 
 3. Create an `.env` file on Project Root and add `FLASK_ENV=development`
 
-4. Test as follows on Insomnia. 
+4. If Using PyCharm, mark `plant-diseases-integration` as `sources-root`. (Help Wanted on how to run the Project without an IDE i.e On Terminal)
+
+5. Test as follows on Insomnia. 
     
     ```
    Example Payload
