@@ -2,9 +2,9 @@
 Images Module
 Contains REST API functions Image Requests from App/Website
 """
-from app.api.images import webapp, logger
+from app.api.images import webapp
 from app.api.images.schemas import PlantImagesSchema
-from app.validators import validate_json
+from app.api.validators import validate_json
 from flask import jsonify, request
 from marshmallow.exceptions import ValidationError
 from fastai.vision import *
