@@ -43,6 +43,6 @@ thinc==7.1.1
 torch==1.3.0.post2
 torchvision==0.4.1.post2
 tqdm==4.36.1
-urllib3==1.25.6
+urllib3==1.26.5
 wasabi==0.3.0
 Werkzeug==0.16.0
